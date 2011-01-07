@@ -1,9 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-JQUERY_TOOLTIP_VERSION = '1.3'
 version = '1.3'
-# Name version after JQUERY_TOOLTIP_VERSION + .suffix
 
 
 def read(*rnames):
