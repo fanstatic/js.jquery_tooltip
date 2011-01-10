@@ -33,9 +33,6 @@ setup(
         'js.jquery',
         'setuptools',
         ],
-    extras_require = dict(
-        test=['pytest >= 2.0'],
-        ),
     entry_points={
         'fanstatic.libraries': [
             'jquery_tooltip = js.jquery_tooltip:library',
